@@ -34,7 +34,7 @@ public class Logintestinput {
   
   @BeforeMethod
   public void setUp()  {
-      driver = utilities.DriverFactory.open("chrome");
+      driver = utilities.DriverFactory.open("chrome",false);
 	  driver.get("http://sdettraining.com/trguitransactions/AccountManagement.aspx");
 	  
 	  

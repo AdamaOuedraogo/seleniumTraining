@@ -20,7 +20,7 @@ public class Atagtestngunittest {
 	@Test
 	public void AtaElementTest() {
 	
-			driver = utilities.DriverFactory.open("chrome");
+			driver = utilities.DriverFactory.open("chrome",false);
 		
 		driver.get("http://sdettraining.com/trguitransactions/AccountManagement.aspx");
 		
@@ -43,7 +43,7 @@ public class Atagtestngunittest {
 	    @BeforeMethod
 		public void setUp()  {
 			
-			driver = utilities.DriverFactory.open("chrome");
+			driver = utilities.DriverFactory.open("chrome",false);
 			driver.get("http://sdettraining.com/trguitransactions/AccountManagement.aspx");
 			
 		}

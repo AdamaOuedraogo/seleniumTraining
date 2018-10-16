@@ -53,7 +53,7 @@ public class loginwithJunit {
 		System.out.println("debut du test");
 		//1. acceder au driver
 
-		driver = utilities.DriverFactory.open("firefox");
+		driver = utilities.DriverFactory.open("firefox",false);
 
 		//2. acceder a l'application
 
