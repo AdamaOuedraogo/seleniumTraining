@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="smokeTest:sdetUniversity" parallel="false">
+  <test name="TestHomepage Input">
+    <classes>
+      <class name="seleniumUnitTest.Logintestinput"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="TestHomepage A tag">
+    <classes>
+     
+      <class name="seleniumUnitTest.Atagtestngunittest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
